@@ -1,6 +1,7 @@
 
 ---
 
+**Live Demo:** [http://regression-forestfire-env.eba-2a4mjhih.eu-west-2.elasticbeanstalk.com](http://regression-forestfire-env.eba-2a4mjhih.eu-west-2.elasticbeanstalk.com)
 ## Installation & Usage
 
 ### 1. Clone the Repository
@@ -26,6 +27,24 @@ http://127.0.0.1:5000
 
 
 ## About the project
+
+## Live Deployment
+
+This machine learning model is deployed and running live on AWS Elastic Beanstalk:
+
+**Live Demo:** [http://regression-forestfire-env.eba-2a4mjhih.eu-west-2.elasticbeanstalk.com](http://regression-forestfire-env.eba-2a4mjhih.eu-west-2.elasticbeanstalk.com)
+
+### API Endpoints:
+- `GET /` - Homepage
+- `GET /health` - Health check
+- `POST /predict` - Prediction endpoint
+
+### Deployment Details:
+- **Platform:** AWS Elastic Beanstalk
+- **Region:** London (eu-west-2)
+- **Instance:** t3.micro
+- **Framework:** Flask
+- **ML Library:** scikit-learn
 
 This project is an **end-to-end machine learning web application** that predicts the **Fire Weather Index (FWI)** using meteorological and environmental data.  
 
