@@ -42,7 +42,6 @@ This machine learning model is deployed and running live on AWS Elastic Beanstal
 ### Deployment Details:
 - **Platform:** AWS Elastic Beanstalk
 - **Region:** London (eu-west-2)
-- **Instance:** t3.micro
 - **Framework:** Flask
 - **ML Library:** scikit-learn
 
